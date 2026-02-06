@@ -23,7 +23,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
         <p>
-          {count > 1?"<ButtonPrueba mensaje = "Mensaje"/>":""} 
+          {count > 1?"<ButtonPrueba mensaje="Añadir tarea" onClick={addTarea}/>":""} 
         </p>
       </div>
       <p className="read-the-docs">

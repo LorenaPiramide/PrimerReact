@@ -11,10 +11,10 @@ import { useState } from 'react'
 //   	)
 // }
 
-export default function ButtonPrueba({count,useState}) {
+export default function ButtonPrueba({mensaje, onClick}) {
 
 	return (
-		<button>count is {count}</button>
+		<button onClick={onClick}>{mensaje}</button>
 	)
 }
 
